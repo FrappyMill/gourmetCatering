@@ -1,0 +1,125 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 2px 0;
+}
+
+h1 {font-size: 36px;}
+h4 {font-size: 20px;}
+h5 {font-size: 18px;}
+
+p {
+    font-size: 19px !important;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(192, 190, 190);
+}
+
+.top {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.navigation {
+    background-color: white;
+    padding: 8px 20px !important;
+    letter-spacing: 4px;
+
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 
+                0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.nav-items {
+    margin: 12px 0px 12px 0px;
+}
+ 
+.banner { 
+    position: relative;
+    margin-left: 150px;
+}
+
+.title {
+    position: relative;
+    left: 200px;
+    bottom: 120px;
+    color: rgb(124, 122, 122);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    margin: 0px 150px 0px 150px;
+    row-gap: 150px;
+    column-gap: 100px;
+}
+
+
+.tablesetting1 {
+    width: 70%;
+    height: auto;
+    float: right;
+    opacity: 0.85;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.tablesetting2 {
+    height: 100%;
+    width: 75%;
+}
+
+.contact-wrapper {
+    margin: 150px 320px 0px 380px;
+}
+
+.form-item {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* placeholder font-size */
+input,
+input::-webkit-input-placeholder {
+    font-size: 16px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn:hover {
+    background-color: rgb(192, 190, 190);
+}
